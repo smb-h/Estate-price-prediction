@@ -4,7 +4,7 @@ This is the dataset proposed and introduces in this paper: "House price estimati
 https://arxiv.org/pdf/1609.08399.pdf
 
 
-Link to github:
+Link to github repository:
 https://github.com/emanhamed/Houses-dataset
 
 ## **Cite**
