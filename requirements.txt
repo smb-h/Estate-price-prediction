@@ -34,7 +34,7 @@ h5py==3.8.0
 -e git+ssh://git@github.com/smb-h/house-price-prediction.git@23e79de428fb20e47018116107e42e125eb3c9a1#egg=hpp
 idna==3.4
 ipykernel==6.20.2
-ipython==8.9.0
+ipython==8.10.0
 isort==5.11.4
 jedi==0.18.2
 Jinja2==3.1.2
