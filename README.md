@@ -1,41 +1,55 @@
-## **Dataset**
+# Dynamic Real Estate Valuation
+
+## Overview
+
+This project employs time series algorithms and recurrent neural networks (RNNs) to leverage stock market and financial indicators, including the dollar index, for predicting the post-construction prices of houses in a neighborhood. The focus is on introducing a dynamic approach to real estate valuation through advanced predictive modeling.
+
+## Dataset
 
 This is the dataset proposed and introduces in this paper: "House price estimation from visual and textual features"
 https://arxiv.org/pdf/1609.08399.pdf
 
-
 Link to github repository:
 https://github.com/emanhamed/Houses-dataset
 
-## **Cite**
-Cite: 
-@article{ahmed2016house,
-  title={House price estimation from visual and textual features},
-  author={Ahmed, Eman and Moustafa, Mohamed},
-  journal={arXiv preprint arXiv:1609.08399},
-  year={2016}
-}
+This is a benchmark dataset for houses prices that contains both visual and textual information. Each house is represened by four images for bedroom, bathroom, kitchen and a frontal image of the house. This is the first dataset that contains images to be used for houses prices estimation. The dataset folder contains 2140 images, 4 images for each house. Also, it contains a text file that contains the textual metadata of the dataset. Each row in the file respesents the number of house in order. The numbers represent number of bedrooms, number of bathrooms, area of the house, zipcode and the price. 
 
-## **Details**
+## Features
 
-1. Title: Houses Dataset
+- **Time Series Analysis:** Utilizes time series algorithms for forecasting post-construction house prices.
+- **Financial Indicators:** Incorporates stock market and financial indicators, such as the dollar index, in the predictive modeling process.
+- **Recurrent Neural Networks (RNNs):** Implements RNNs for capturing temporal dependencies in real estate data.
 
-2. Description:  This is a benchmark dataset for houses prices that contains both visual and textual information. Each house is represened by four images for bedroom, bathroom, kitchen and a frontal image of the house. This is the first dataset that contains images to be used for houses prices estimation. The dataset folder contains 2140 images, 4 images for each house. Also, it contains a text file that contains the textual metadata of the dataset. Each row in the file respesents the number of house in order. The numbers represent number of bedrooms, number of bathrooms, area of the house, zipcode and the price. 
+## Objectives
 
-3. Usage:  In order to use this dataset, please, cite the paper and the dataset:  
+- Apply time series algorithms to predict the dynamic post-construction prices of houses.
+- Integrate financial indicators to enhance the accuracy of real estate valuation models.
+- Implement recurrent neural networks for capturing and leveraging temporal patterns in real estate data.
 
-H. Ahmed E. and Moustafa M. (2016). House Price Estimation from Visual and Textual Features.In Proceedings of the 8th International Joint Conference on Computational Intelligence (IJCCI 2016)ISBN 978-989-758-201-1, pages 62-68. DOI: 10.5220/0006040700620068
+## Getting Started
 
+### Prerequisites
 
-4. Number of Instances: 535
+- Check requirements.txt
 
-5. Number of Attributes: 4 textual attributes in addition to the visual attributes that can be extracted from the images. 
+### Installation
 
-6. Attribute Information:
-    1. Number of Bedrooms      
-    2. Number of bathrooms   
-    3. Area
-    4. Zipcode
-    5. Price
+1. Clone the repository:
 
-7. Missing Attribute Values:  None.
+   ```bash
+   git clone https://github.com/your-username/dynamic-real-estate-valuation.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install requirements.txt
+   ```
+
+## Contributors
+
+- SMBH
+
+## License
+
+This project is licensed under the MIT - see the LICENSE file for details.
